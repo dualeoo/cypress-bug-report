@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/js/",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": false, //we need to do that because we have not defined types for most parameters
+    "target": "es5",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src/js",
+    "esModuleInterop": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    //    "noEmit": true,
+    "module": "ESNext"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
